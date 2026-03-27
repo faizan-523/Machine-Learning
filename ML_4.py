@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 
 model = LinearRegression()
 
-df = pd.read_excel('Linear_Regression.xlsx')
+df = pd.read_excel('data.xlsx')
 
 d = pd.get_dummies(df.Names, dtype='int')
 print(d)

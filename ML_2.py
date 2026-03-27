@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from sklearn import linear_model
 
-df = pd.read_excel('Linear_regression.xlsx')
+df = pd.read_excel('data.xlsx')
 
 reg = linear_model.LinearRegression()
 
